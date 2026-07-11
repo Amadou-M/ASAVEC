@@ -1,0 +1,80 @@
+/* Tricolor border */
+.tricolor-border {
+  height: 4px;
+  display: flex;
+  width: 100%;
+}
+
+.tricolor-border::before {
+  content: '';
+  flex: 1;
+  background: #1B6B2F;
+}
+
+.tricolor-border::after {
+  content: '';
+  flex: 1;
+  background: #CE1126;
+}
+
+.tricolor-border {
+  background: #F5A623;
+  display: flex;
+  height: 4px;
+}
+
+/* Boutons */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 2px solid #1B6B2F;
+  color: #1B6B2F;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #1B6B2F;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(27, 107, 47, 0.3);
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #F5A623, #f7c800);
+  color: #0a1f0e;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(245, 166, 35, 0.3);
+  text-decoration: none;
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(245, 166, 35, 0.4);
+}
+
+/* Logo image */
+.logo-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tricolor-border {
+    height: 3px;
+  }
+}
