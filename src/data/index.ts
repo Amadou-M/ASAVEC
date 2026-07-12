@@ -295,7 +295,6 @@ export const TEAM = [
     role: 'Président',
     bio: 'Direction générale, vision stratégique, représentation officielle, porteur du projet associatif.',
     image: 'images/Van.png',
-    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 2,
@@ -303,7 +302,6 @@ export const TEAM = [
     role: '1ère Vice-Présidente',
     bio: 'Assiste le Président, le remplace en son absence, supervise les projets et programmes.',
     image: 'images/Fatoumata.jpeg',
-    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 3,
@@ -311,7 +309,6 @@ export const TEAM = [
     role: '2ème Vice-Président Pôle Formation de la Santé',
     bio: 'Responsable du Pôle Promotion de la Santé : santé communautaire, hygiène, accès aux soins, campagnes de sensibilisation.',
     image: 'images/Gangaly.jpeg',
-    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 4,
@@ -319,7 +316,6 @@ export const TEAM = [
     role: 'Sécrétaire Général',
     bio: 'Gestion administrative, rédaction des comptes-rendus, organisation des réunions, suivi des dossiers et coordination des activités de l\'association.',
     image: 'images/Aboubacar.jpeg',
-    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 5,
@@ -327,7 +323,6 @@ export const TEAM = [
     role: 'Sécrétaire Général Adjoint',
     bio: 'Assiste le Secrétaire Général, le remplace en son absence, gestion des archives et correspondances, suivi des projets et communication interne.',
     image: 'images/Mohamed.jpeg',
-    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 6,
@@ -335,7 +330,6 @@ export const TEAM = [
     role: 'Sécrétaire Administrative',
     bio: 'Gestion du courrier, classement des documents, accueil, support logistique et administratif.',
     image: 'images/kadi.jpeg',
-    size: 'w-28 h-28', // ← AJOUTÉ
   },
 ];
 
