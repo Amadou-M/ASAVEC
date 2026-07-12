@@ -424,13 +424,12 @@ function Testimonial() {
           "Nous croyons en un Mali où chaque enfant grandira dans un environnement sain, chaque famille aura accès à l'eau potable, et chaque communauté sera actrice de son propre développement."
         </blockquote>
         <div className="flex items-center justify-center gap-4">
-          <img
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100"
-            alt="Moussa Diarra"
+          <img src="images/Modibo.jpeg"
+            alt="Modibo TRAORE"
             className="w-12 h-12 rounded-full object-cover border-2 border-[#F5A623]"
           />
           <div className="text-left">
-            <div className="text-white font-semibold">Moussa Diarra</div>
+            <div className="text-white font-semibold">Modibo TRAORE</div>
             <div className="text-white/70 text-sm">Président Fondateur, ASAVEC-Mali</div>
           </div>
         </div>

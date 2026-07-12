@@ -162,7 +162,7 @@ export default function Contact() {
                             name="email"
                             value={form.email}
                             onChange={handleChange}
-                            placeholder="votre@email.com"
+                            placeholder="modibo.t1998@gmail.com"
                             className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-sm focus:border-green-500"
                           />
                         </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                             name="phone"
                             value={form.phone}
                             onChange={handleChange}
-                            placeholder="+223 XX XX XX XX"
+                            placeholder="(+223) 75 91 13 70"
                             className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-sm"
                           />
                         </div>

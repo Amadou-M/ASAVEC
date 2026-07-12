@@ -6,14 +6,14 @@ import { Leaf, BookOpen, Droplets, Sprout } from 'lucide-react';
 import AnimatedCounter from '../components/AnimatedCounter';
 
 const TIMELINE = [
-  { year: '2009', event: 'Fondation d\'ASAVEC-Mali à Bamako par Moussa Diarra et 12 membres fondateurs' },
-  { year: '2011', event: 'Premier projet de reboisement — plantation de 5 000 arbres dans le district de Bamako' },
-  { year: '2013', event: 'Lancement du programme de santé communautaire dans la région de Ségou' },
-  { year: '2015', event: 'Construction des premiers puits artésiens à Mopti — accès à l\'eau pour 500 familles' },
-  { year: '2017', event: 'Partenariat avec le PNUD pour le programme d\'alphabétisation des femmes' },
-  { year: '2019', event: 'Lancement du programme d\'entrepreneuriat vert pour les jeunes maliens' },
-  { year: '2021', event: 'Extension des activités dans toutes les 8 régions du Mali' },
-  { year: '2024', event: '15e anniversaire — Plus de 5 000 bénéficiaires directs et 120 projets réalisés' },
+  { year: '2020', event: 'Fondation d\'ASAVEC-Mali à Bamako par Modibo TRAORE et 12 membres fondateurs' },
+  { year: '2020', event: 'Premier projet de reboisement — plantation de 5 000 arbres dans le district de Bamako' },
+  { year: '2021', event: 'Lancement du programme de santé communautaire dans la région de Ségou' },
+  { year: '2021', event: 'Construction des premiers puits artésiens à Mopti — accès à l\'eau pour 500 familles' },
+  { year: '2022', event: 'Partenariat avec le PNUD pour le programme d\'alphabétisation des femmes' },
+  { year: '2023', event: 'Lancement du programme d\'entrepreneuriat vert pour les jeunes maliens' },
+  { year: '2025', event: 'Extension des activités dans toutes les 8 régions du Mali' },
+  { year: '2026', event: '6e anniversaire — Plus de 1000 bénéficiaires directs et 10 projets réalisés' },
 ];
 
 const VALUES = [

@@ -1,8 +1,8 @@
 export const SITE_NAME = 'ASAVEC-Mali';
 export const SITE_FULL_NAME = 'Association de la Santé et de la Verdure au Cœur du Développement Durable';
 export const SITE_TAGLINE = 'Ensemble pour un Mali vert, sain et prospère';
-export const CONTACT_EMAIL = 'contact@asavec-mali.org';
-export const CONTACT_PHONE = '+223 70 00 00 00';
+export const CONTACT_EMAIL = 'modibo.t1998@gmail.com';
+export const CONTACT_PHONE = '(+223) 75 91 13 70';
 export const CONTACT_ADDRESS = 'Bamako, République du Mali';
 export const FACEBOOK_URL = '#';
 export const TWITTER_URL = '#';
@@ -291,10 +291,10 @@ export const EVENTS = [
 export const TEAM = [
   {
     id: 1,
-    name: 'Moussa Diarra',
+    name: 'Modibo Traoré',
     role: 'Président Fondateur',
     bio: 'Pionnier du développement durable au Mali avec plus de 20 ans d\'expérience dans le secteur humanitaire et environnemental.',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'images/Modibo.jpeg',
   },
   {
     id: 2,
@@ -335,12 +335,12 @@ export const GALLERY_IMAGES = [
 ];
 
 export const PARTNERS = [
-  { id: 1, name: 'PNUD Mali', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  { id: 2, name: 'ONG Helvetas', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  { id: 3, name: 'Union Européenne', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  { id: 4, name: 'Agence Française de Développement', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  { id: 5, name: 'UNICEF Mali', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  { id: 6, name: 'Ministère de l\'Environnement', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 1, name: 'XXXXXXXXXXXXXX', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 2, name: 'YYYYYYYYYYYYYY', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 3, name: 'ZZZZZZZZZZZZZZ', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 4, name: 'AAAAAAAAAAAAAA', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 5, name: 'BBBBBBBBBBBBBB', logo: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300' },
+  { id: 6, name: 'CCCCCCCCCCCCCC', logo: 'https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=300' },
 ];
 
 export const CATEGORY_COLORS: Record<string, string> = {
