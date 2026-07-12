@@ -9,7 +9,7 @@ function PageHero() {
   return (
     <section className="relative pt-32 pb-20 bg-[#1B6B2F] overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center opacity-15"
-        style={{ backgroundImage: `url('https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1920')` }} />
+        style={{ backgroundImage: `url('images/bko5.jpg')` }} />
       <div className="tricolor-border-thick absolute bottom-0 left-0 right-0" />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <span className="badge bg-white/20 text-white mb-4">Blog & Actualités</span>

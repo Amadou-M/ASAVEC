@@ -33,7 +33,7 @@ export const DOMAINS = [
     description: 'Plantation d\'arbres, lutte contre la déforestation et préservation de la biodiversité du Mali.',
     icon: 'Leaf',
     color: 'bg-green-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/a2.jpeg',
   },
   {
     id: 2,
@@ -41,7 +41,7 @@ export const DOMAINS = [
     description: 'Accès aux soins de santé, prévention des maladies et sensibilisation sanitaire dans les communautés rurales.',
     icon: 'Heart',
     color: 'bg-red-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/f3.jpeg',
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export const DOMAINS = [
     description: 'Alphabétisation, formation professionnelle et renforcement des capacités des jeunes et femmes.',
     icon: 'BookOpen',
     color: 'bg-blue-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/f6.jpeg',
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const DOMAINS = [
     description: 'Construction de puits, systèmes d\'irrigation et accès à l\'eau potable pour les villages isolés.',
     icon: 'Droplets',
     color: 'bg-cyan-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/a4.jpeg',
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const DOMAINS = [
     description: 'Promotion de l\'agroécologie, jardins communautaires et sécurité alimentaire.',
     icon: 'Sprout',
     color: 'bg-lime-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/a1.jpeg',
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ export const DOMAINS = [
     description: 'Autonomisation économique des femmes, leadership des jeunes et cohésion sociale.',
     icon: 'Users',
     color: 'bg-purple-600',
-    image: 'images/Logo.jpeg',
+    image: 'images/a19.jpeg',
   },
 ];
 
@@ -89,7 +89,7 @@ export const PROJECTS = [
     description: 'Programme de plantation intensive d\'arbres fruitiers et forestiers dans les quartiers périphériques de Bamako pour lutter contre l\'érosion et améliorer le cadre de vie.',
     beneficiaries: 2500,
     budget: '15 000 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/f2.jpeg',
     tags: ['reboisement', 'environnement', 'bamako'],
   },
   {
@@ -103,7 +103,7 @@ export const PROJECTS = [
     description: 'Déploiement d\'équipes médicales mobiles dans 20 villages de la région de Ségou offrant consultations, vaccinations et éducation sanitaire.',
     beneficiaries: 5000,
     budget: '8 000 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/a8.jpeg',
     tags: ['santé', 'médical', 'rural'],
   },
   {
@@ -117,7 +117,7 @@ export const PROJECTS = [
     description: 'Forage et construction de puits artésiens pour garantir l\'accès à l\'eau potable dans 5 villages enclavés de la région de Mopti.',
     beneficiaries: 1800,
     budget: '20 000 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/a6.jpeg',
     tags: ['eau', 'assainissement', 'mopti'],
   },
   {
@@ -131,7 +131,7 @@ export const PROJECTS = [
     description: 'Formation à la lecture, écriture et calcul pour 300 femmes adultes accompagnée d\'un volet formation professionnelle en couture et transformation alimentaire.',
     beneficiaries: 300,
     budget: '5 500 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/a12.jpeg',
     tags: ['éducation', 'femmes', 'formation'],
   },
   {
@@ -145,7 +145,7 @@ export const PROJECTS = [
     description: 'Installation de 15 jardins maraîchers collectifs avec système d\'irrigation goutte-à-goutte solaire pour améliorer la sécurité alimentaire et les revenus des familles.',
     beneficiaries: 750,
     budget: '12 000 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/a14.jpeg',
     tags: ['agriculture', 'alimentation', 'kayes'],
   },
   {
@@ -159,7 +159,7 @@ export const PROJECTS = [
     description: 'Programme d\'incubation pour 50 jeunes entrepreneurs développant des solutions vertes et innovantes pour les défis environnementaux du Mali.',
     beneficiaries: 50,
     budget: '7 000 000 FCFA',
-    image: 'images/Logo.jpeg',
+    image: 'images/a10.jpeg',
     tags: ['jeunesse', 'entrepreneuriat', 'innovation'],
   },
 ];
@@ -172,7 +172,7 @@ export const NEWS = [
     category: 'Environnement',
     date: '5 juin 2024',
     author: 'Équipe ASAVEC',
-    image: 'images/Logo.jpeg',
+    image: 'images/a15.jpeg',
     readTime: '3 min',
     tags: ['reboisement', 'journée mondiale', 'bénévoles'],
   },
@@ -183,7 +183,7 @@ export const NEWS = [
     category: 'Santé',
     date: '15 mai 2024',
     author: 'Dr. Fatoumata Coulibaly',
-    image: 'images/Logo.jpeg',
+    image: 'images/activite1.jpeg',
     readTime: '4 min',
     tags: ['santé', 'caravane', 'ségou'],
   },
@@ -194,7 +194,7 @@ export const NEWS = [
     category: 'Partenariat',
     date: '28 avril 2024',
     author: 'Direction ASAVEC',
-    image: 'images/Logo.jpeg',
+    image: 'images/activite2.jpeg',
     readTime: '2 min',
     tags: ['PNUD', 'partenariat', 'financement'],
   },
@@ -205,7 +205,7 @@ export const NEWS = [
     category: 'Éducation',
     date: '10 avril 2024',
     author: 'Aminata Traoré',
-    image: 'images/Logo.jpeg',
+    image: 'images/activite3.jpeg',
     readTime: '5 min',
     tags: ['femmes', 'sikasso', 'autonomisation'],
   },
@@ -216,7 +216,7 @@ export const NEWS = [
     category: 'Eau',
     date: '22 mars 2024',
     author: 'Ibrahim Diallo',
-    image: 'images/Logo.jpeg',
+    image: 'images/activite4.jpeg',
     readTime: '3 min',
     tags: ['eau', 'mopti', 'inauguration'],
   },
@@ -227,7 +227,7 @@ export const NEWS = [
     category: 'Bénévolat',
     date: '8 mars 2024',
     author: 'Équipe ASAVEC',
-    image: 'images/Logo.jpeg',
+    image: 'images/forum.jpeg',
     readTime: '2 min',
     tags: ['bénévolat', 'recrutement', 'volontariat'],
   },
@@ -244,7 +244,7 @@ export const EVENTS = [
     description: 'Rejoignez-nous pour une grande journée de plantation d\'arbres sur les berges du fleuve Niger. Matériel fourni, prévoir tenue de travail.',
     seats: 150,
     registered: 87,
-    image: 'images/Logo.jpeg',
+    image: 'images/f3.jpeg',
     color: 'bg-green-600',
   },
   {
@@ -257,7 +257,7 @@ export const EVENTS = [
     description: 'Un forum rassemblant médecins, nutritionnistes et communautés pour partager les meilleures pratiques de santé préventive au Mali.',
     seats: 200,
     registered: 134,
-    image: 'images/Logo.jpeg',
+    image: 'images/bko.jpeg',
     color: 'bg-red-600',
   },
   {
@@ -270,7 +270,7 @@ export const EVENTS = [
     description: 'Soirée de gala au profit des programmes d\'ASAVEC-Mali. Dîner, spectacles culturels et ventes aux enchères de charité.',
     seats: 300,
     registered: 241,
-    image: 'images/Logo.jpeg',
+    image: 'images/bko1.jpeg',
     color: 'bg-gold-400',
   },
   {
@@ -283,7 +283,7 @@ export const EVENTS = [
     description: 'Formation pratique de 2 jours sur les techniques d\'agroécologie et de permaculture adaptées aux conditions climatiques du Mali.',
     seats: 50,
     registered: 38,
-    image: 'images/Logo.jpeg',
+    image: 'images/bko2.jpeg',
     color: 'bg-lime-600',
   },
 ];
@@ -295,6 +295,7 @@ export const TEAM = [
     role: 'Président',
     bio: 'Direction générale, vision stratégique, représentation officielle, porteur du projet associatif.',
     image: 'images/Van.png',
+    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 2,
@@ -302,6 +303,7 @@ export const TEAM = [
     role: '1ère Vice-Présidente',
     bio: 'Assiste le Président, le remplace en son absence, supervise les projets et programmes.',
     image: 'images/Fatoumata.jpeg',
+    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 3,
@@ -309,6 +311,7 @@ export const TEAM = [
     role: '2ème Vice-Président Pôle Formation de la Santé',
     bio: 'Responsable du Pôle Promotion de la Santé : santé communautaire, hygiène, accès aux soins, campagnes de sensibilisation.',
     image: 'images/Gangaly.jpeg',
+    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 4,
@@ -316,6 +319,7 @@ export const TEAM = [
     role: 'Sécrétaire Général',
     bio: 'Gestion administrative, rédaction des comptes-rendus, organisation des réunions, suivi des dossiers et coordination des activités de l\'association.',
     image: 'images/Aboubacar.jpeg',
+    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 5,
@@ -323,29 +327,31 @@ export const TEAM = [
     role: 'Sécrétaire Général Adjoint',
     bio: 'Assiste le Secrétaire Général, le remplace en son absence, gestion des archives et correspondances, suivi des projets et communication interne.',
     image: 'images/Mohamed.jpeg',
+    size: 'w-24 h-24', // ← AJOUTÉ
   },
   {
     id: 6,
     name: 'Kadia DIARRA',
     role: 'Sécrétaire Administrative',
     bio: 'Gestion du courrier, classement des documents, accueil, support logistique et administratif.',
-    image: 'images/Kadia.jpeg',
+    image: 'images/kadi.jpeg',
+    size: 'w-28 h-28', // ← AJOUTÉ
   },
 ];
 
 export const GALLERY_IMAGES = [
-  { id: 1, src: 'images/Logo.jpeg', category: 'Environnement', caption: 'Campagne de reboisement — Bamako 2024' },
-  { id: 2, src: 'images/Logo.jpeg', category: 'Santé', caption: 'Caravane médicale — Ségou 2023' },
-  { id: 3, src: 'images/Logo.jpeg', category: 'Eau', caption: 'Inauguration d\'un puits — Mopti 2023' },
-  { id: 4, src: 'images/Logo.jpeg', category: 'Éducation', caption: 'Programme d\'alphabétisation — Koulikoro 2024' },
-  { id: 5, src: 'images/Logo.jpeg', category: 'Agriculture', caption: 'Jardins maraîchers communautaires — Kayes 2024' },
-  { id: 6, src: 'images/Logo.jpeg', category: 'Femmes', caption: 'Formation entrepreneuriat féminin — Sikasso 2024' },
-  { id: 7, src: 'images/Logo.jpeg', category: 'Événements', caption: 'Forum partenariat PNUD — Bamako 2024' },
-  { id: 8, src: 'images/Logo.jpeg', category: 'Bénévolat', caption: 'Journée bénévoles — Bamako 2024' },
-  { id: 9, src: 'images/Logo.jpeg', category: 'Agriculture', caption: 'Champs de mil — Région de Mopti 2023' },
-  { id: 10, src: 'images/Logo.jpeg', category: 'Santé', caption: 'Distribution de médicaments — Kidal 2023' },
-  { id: 11, src: 'images/Logo.jpeg', category: 'Environnement', caption: 'Forêt communautaire — Bamako 2023' },
-  { id: 12, src: 'images/Logo.jpeg', category: 'Éducation', caption: 'Atelier de formation — Bamako 2024' },
+  { id: 1, src: 'images/f3.jpeg', category: 'Environnement', caption: 'Campagne de reboisement — Bamako 2024' },
+  { id: 2, src: 'images/a15.jpeg', category: 'Santé', caption: 'Caravane médicale — Ségou 2023' },
+  { id: 3, src: 'images/a14.jpeg', category: 'Eau', caption: 'Inauguration d\'un puits — Mopti 2023' },
+  { id: 4, src: 'images/a3.jpeg', category: 'Éducation', caption: 'Programme d\'alphabétisation — Koulikoro 2024' },
+  { id: 5, src: 'images/a13.jpeg', category: 'Agriculture', caption: 'Jardins maraîchers communautaires — Kayes 2024' },
+  { id: 6, src: 'images/Bamako.jpg', category: 'Femmes', caption: 'Formation entrepreneuriat féminin — Sikasso 2024' },
+  { id: 7, src: 'images/a16.jpeg', category: 'Événements', caption: 'Forum partenariat PNUD — Bamako 2024' },
+  { id: 8, src: 'images/bko2.jpg', category: 'Bénévolat', caption: 'Journée bénévoles — Bamako 2024' },
+  { id: 9, src: 'images/bko3.jpg', category: 'Agriculture', caption: 'Champs de mil — Région de Mopti 2023' },
+  { id: 10, src: 'images/f6.jpeg', category: 'Santé', caption: 'Distribution de médicaments — Kidal 2023' },
+  { id: 11, src: 'images/f2.jpeg', category: 'Environnement', caption: 'Forêt communautaire — Bamako 2023' },
+  { id: 12, src: 'images/a11.jpeg', category: 'Éducation', caption: 'Atelier de formation — Bamako 2024' },
 ];
 
 export const PARTNERS = [
