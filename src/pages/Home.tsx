@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import {
   ArrowRight, Leaf, Heart, BookOpen, Droplets, Sprout, Users,
-  MapPin, Calendar, ChevronRight, Play, Quote, Star
+  MapPin, Calendar, ChevronRight, Quote
 } from 'lucide-react';
 import AnimatedCounter from '../components/AnimatedCounter';
 import { useInView } from '../hooks/useInView';
-import { STATS, DOMAINS, PROJECTS, NEWS, EVENTS, PARTNERS, TEAM, CATEGORY_COLORS } from '../data';
+import { STATS, DOMAINS, PROJECTS, NEWS, EVENTS, PARTNERS, CATEGORY_COLORS } from '../data';
+import './Home.css';
 
 const ICON_MAP: Record<string, React.ComponentType<any>> = {
   Leaf, Heart, BookOpen, Droplets, Sprout, Users,
@@ -26,16 +27,13 @@ function SectionHeader({ label, title, subtitle, centered = false }: {
   );
 }
 
-// Hero Section
+// Hero Section avec le nouveau texte
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=1920')` }}
-      />
-      <div className="hero-overlay absolute inset-0" />
+    <section className="hero-section">
+      {/* Image de fond - Bamako */}
+      <div className="hero-bg-image"></div>
+      <div className="hero-overlay" />
 
       {/* Floating particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -53,56 +51,71 @@ function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
-        {/* Mali flag pill */}
-        <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-8">
-          <div className="flex h-4 rounded-sm overflow-hidden w-8">
-            <div className="flex-1 bg-[#1B6B2F]" />
-            <div className="flex-1 bg-[#F5A623]" />
-            <div className="flex-1 bg-[#CE1126]" />
-          </div>
-          <span className="text-white text-sm font-medium">République du Mali</span>
-        </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 text-center">
+        {/* Logo ASAVEC */}
 
-        <h1 className="font-serif font-bold text-white text-5xl sm:text-6xl lg:text-7xl leading-tight mb-6">
-          ASAVEC-Mali
+
+        {/* Badge */}
+
+        {/* Titre principal - "Santé et Verdure au cœur du Développement" */}
+        <h1 className="hero-title">
+          <span className="hero-title-line">Santé et Verdure</span>
+          <span className="hero-title-line">au cœur du</span>
+          <span className="hero-title-line hero-title-highlight">Développement</span>
         </h1>
-        <p className="text-white/90 text-lg sm:text-xl font-light max-w-3xl mx-auto leading-relaxed mb-4">
-          Association de la Santé et de la Verdure au Cœur du Développement Durable
-        </p>
-        <p className="text-[#F5A623] text-base sm:text-lg font-medium mb-10 italic font-serif">
-          "Ensemble pour un Mali vert, sain et prospère"
+
+        {/* Description */}
+        <p className="hero-description">
+          ASAVEC-Mali œuvre pour un avenir où la santé des communautés<br />
+          et la protection de l'environnement avancent main dans la main.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
-          <Link to="/projets" className="btn-gold text-base px-8 py-4">
-            Découvrir nos projets
+        {/* Boutons d'action */}
+        <div className="btn-group">
+          <Link to="/projets" className="btn btn-primary btn-pulse">
             <ArrowRight size={18} />
+            Découvrir nos projets
           </Link>
-          <Link to="/don" className="btn-outline-white text-base px-8 py-4">
+          <Link to="/don" className="btn btn-secondary">
             <Heart size={18} />
-            Soutenir notre cause
+            Nous soutenir
           </Link>
         </div>
 
-        {/* Stats bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          {STATS.map((stat, i) => (
-            <div key={i} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 text-center">
-              <div className="font-serif font-bold text-3xl text-[#F5A623] mb-1">
-                <AnimatedCounter value={stat.value} suffix={stat.suffix} />
-              </div>
-              <div className="text-white/80 text-xs font-medium leading-tight">{stat.label}</div>
-            </div>
-          ))}
+        {/* Stats bar - comme sur l'image */}
+        <div className="hero-stats">
+          <div className="hero-stat">
+            <span className="hero-stat-number">
+              <AnimatedCounter value={5000} suffix="+" />
+            </span>
+            <span className="hero-stat-label">Personnes sensibilisées</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-number">
+              <AnimatedCounter value={3500} suffix="+" />
+            </span>
+            <span className="hero-stat-label">Arbres plantés</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-number">
+              <AnimatedCounter value={12} suffix="+" />
+            </span>
+            <span className="hero-stat-label">Villages accompagnés</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-number">
+              <AnimatedCounter value={200} suffix="+" />
+            </span>
+            <span className="hero-stat-label">Femmes formées</span>
+          </div>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce-gentle">
-        <span className="text-white/60 text-xs">Défiler</span>
-        <div className="w-5 h-8 border-2 border-white/40 rounded-full flex justify-center pt-2">
-          <div className="w-1 h-2 bg-white/60 rounded-full animate-pulse" />
+      <div className="scroll-indicator">
+        <span>Défiler</span>
+        <div className="scroll-arrow">
+          <div className="scroll-dot"></div>
         </div>
       </div>
     </section>
@@ -258,7 +271,6 @@ function ProjectsPreview() {
                   <MapPin size={12} />
                   {project.location}
                 </div>
-                {/* Progress */}
                 <div className="mb-4">
                   <div className="flex justify-between text-xs text-gray-500 mb-1">
                     <span>Avancement</span>
