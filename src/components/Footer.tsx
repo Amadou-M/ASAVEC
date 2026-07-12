@@ -59,7 +59,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { icon: Facebook, href: '#' },
+                { icon: Facebook, href: 'https://www.facebook.com/modibo.traore.7374?mibextid=ZbWKwL' },
                 { icon: Twitter, href: '#' },
                 { icon: Instagram, href: '#' },
                 { icon: Youtube, href: '#' },

@@ -95,7 +95,7 @@ function Timeline() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <span className="badge bg-green-100 text-green-700 mb-3">Notre parcours</span>
-          <h2 className="font-serif font-bold text-4xl text-gray-900">15 ans d'engagement</h2>
+          <h2 className="font-serif font-bold text-4xl text-gray-900">6 ans d'engagement</h2>
         </div>
         <div className="relative">
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-green-200" />

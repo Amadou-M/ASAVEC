@@ -424,7 +424,7 @@ function Testimonial() {
           "Nous croyons en un Mali où chaque enfant grandira dans un environnement sain, chaque famille aura accès à l'eau potable, et chaque communauté sera actrice de son propre développement."
         </blockquote>
         <div className="flex items-center justify-center gap-4">
-          <img src="images/Modibo.jpeg"
+          <img src="images/Van.png"
             alt="Modibo TRAORE"
             className="w-12 h-12 rounded-full object-cover border-2 border-[#F5A623]"
           />
